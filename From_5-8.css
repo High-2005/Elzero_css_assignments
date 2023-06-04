@@ -1,0 +1,140 @@
+/*! Assign-1 */
+.assign-1-shape-1 {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(138, 44, 226, 1);
+  background-color: #8a2ce2;
+  background-color: hsla(271, 76%, 53%, 1);
+}
+
+.assign-1-shape-2 {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(271, 76%, 53%, 0.75);
+  background-color: #8a2ce2bf;
+  background-color: hsla(271, 76%, 53%, 0.75);
+}
+
+.assign-1-shape-3 {
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(138, 44, 226, 0.5);
+  background-color: #8a2ce280;
+  background-color: hsla(271, 76%, 53%, 0.5);
+}
+
+/*! Assign-2 */
+.assign-2-shape-1 {
+  width: 400px;
+  height: 400px;
+  background-color: #EEEEEE;
+  background-image: url("./images/css-assignment-5-8.png");
+  background-repeat: no-repeat;
+}
+
+.assign-2-shape-2 {
+  width: 400px;
+  height: 400px;
+  background-color: #EEEEEE;
+  background-image: url("./images/css-assignment-5-8.png");
+  background-repeat: repeat-y;
+}
+
+.assign-2-shape-3 {
+  width: 400px;
+  height: 400px;
+  background-color: #EEEEEE;
+  background-image: url("./images/css-assignment-5-8.png");
+  background-repeat: repeat-x;
+}
+
+.assign-2-shape-4 {
+  width: 400px;
+  height: 400px;
+  background-color: #EEEEEE;
+  background-image: url("./images/css-assignment-5-8.png");
+}
+
+/*! Assign-3 */
+.assign-3-shape-1 {
+  width: 400px;
+  height: 400px;
+  background-color: #EEEEEE;
+  background-image: url("./images/css-assignment-5-8.png");
+  background-repeat: no-repeat;
+}
+
+.assign-3-shape-2 {
+  width: 400px;
+  height: 400px;
+  background-color: #EEEEEE;
+  background-image: url("./images/css-assignment-5-8.png");
+  background-repeat: repeat-y;
+  background-position: right;
+}
+
+.assign-3-shape-3 {
+  width: 400px;
+  height: 400px;
+  background-color: #EEEEEE;
+  background-image: url("./images/css-assignment-5-8.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+.assign-3-shape-4 {
+  width: 400px;
+  height: 400px;
+  background-color: #EEEEEE;
+  background-image: url("./images/css-assignment-5-8.png");
+}
+
+/*! Assign-4 */
+.assign4 div {
+  display: inline-block;
+  background-color: #EEE;
+  padding: 50px 80px;
+  margin: 20px;
+}
+
+.assign4 .shape-1 {
+  border: 10px solid red;
+  outline: 10px solid black;
+}
+
+.assign4 .shape-2 {
+  border: 10px solid;
+  border-color: blue green;
+  outline: 10px solid black;
+}
+
+.assign4 .shape-3 {
+  border: 10px dashed;
+  border-color: red green blue yellow;
+  outline: 10px solid black;
+}
+
+/*! Assign-5 */
+.assign5 div {
+  width: 400px;
+  margin: 20px auto;
+  background-color: #EEE;
+  padding: 20px;
+}
+
+.assign5 .shape-1 {
+  border-left: 10px solid #E91E63;
+  outline: #eee solid 10px;
+}
+
+.assign5 .shape-2 {
+  visibility: hidden;
+}
+
+.assign5 .shape-3 {
+  border-left: 10px solid #009688;
+  outline: #eee solid 10px;
+}

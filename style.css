@@ -1,4 +1,78 @@
 /*! Assign-1 */
+/*? Any Element With Class Title */
+.title {}
+
+/*? Select Element Using 'Elemnt ID' */
+#nav {}
+
+/*? Select Element Using 'Elemnt Type' */
+div {}
+
+/*? Select Element Using 'Element Type' */
+h2 {}
+
+/*! Assign-2 */
+/*? External Style Sheet */
+/* <link rel="stylesheet" href="css/file.css" /> */
+
+/*? Internal Style Sheet */
+/* <style>
+p {
+  color: red;
+}
+</style> */
+
+/*? Inline Style Sheet */
+/* <p style="color: blue;">This Is Our Paragraph</p> */
+
+/*! Assign-3 */
+/* <link rel="stylesheet" href="./assets/css/master.css" /> */
+
+/*! Assign-4 */
+/* <link rel="stylesheet" href="../source/css/main.css" /> */
+
+/*! Assign-5 */
+/*? Valid */
+/* ._user-name {} */
+
+/*? Valid */
+/* .-user-name {} */
+
+/*? Valid */
+/* .-user-name {} */
+
+/*? Not Valid */
+/* .1user-name {} */
+
+/*? Not Valid */
+/* .@user-name {} */
+
+/*? Not Valid */
+/* .user@name {} */
+
+/*? Valid */
+/* ._user10name {} */
+
+/*? Valid */
+/* .u {} */
+
+/*! Assign-6 */
+/*? Not Valid */
+/* .USERNAME {} */
+
+/*? Valid */
+/* .UserName {} */
+
+/*? Valid */
+/* .user-name {} */
+
+/*? Not Valid */
+/* .userName {} */
+
+/*? Valid */
+/* .usernameprofile {} */
+
+/*! Assign-7 */
 .assign-1-shape-1 {
   width: 500px;
   margin: 20px auto;
@@ -26,7 +100,7 @@
   background-color: hsla(271, 76%, 53%, 0.5);
 }
 
-/*! Assign-2 */
+/*! Assign-8 */
 .assign-2-shape-1 {
   width: 400px;
   height: 400px;
@@ -58,7 +132,7 @@
   background-image: url("./images/css-assignment-5-8.png");
 }
 
-/*! Assign-3 */
+/*! Assign-9 */
 .assign-3-shape-1 {
   width: 400px;
   height: 400px;
@@ -92,7 +166,7 @@
   background-image: url("./images/css-assignment-5-8.png");
 }
 
-/*! Assign-4 */
+/*! Assign-10 */
 .assign4 div {
   display: inline-block;
   background-color: #EEE;
@@ -117,7 +191,7 @@
   outline: 10px solid black;
 }
 
-/*! Assign-5 */
+/*! Assign-11 */
 .assign5 div {
   width: 400px;
   margin: 20px auto;
@@ -137,4 +211,29 @@
 .assign5 .shape-3 {
   border-left: 10px solid #009688;
   outline: #eee solid 10px;
+}
+
+/*! Assign-12 */
+.parent .child .title {
+  color: red;
+}
+
+.parent .title {
+  color: blue;
+}
+
+.parent p,
+.title {
+  color: green;
+}
+
+/*! Assign-13 */
+.assign10 div {
+  background-color: #A52A2A;
+  width: fit-content;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  max-height: 25px;
+  overflow: hidden;
 }
